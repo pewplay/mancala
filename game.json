@@ -1,0 +1,60 @@
+{
+  "$schema": "https://raw.githubusercontent.com/pewplay/pewplay/main/schema/game.schema.json",
+  "title": "Mancala",
+  "description": "Sow seeds around the board, earn extra turns and capture your rival's pits in this ancient count-and-capture game. Free to play in your browser.",
+  "about": "Mancala is one of the oldest board games in the world, played with seeds and a wooden board of pits. Each player owns the six small pits on their side and a large store on their right. On your turn you scoop all the seeds from one of your pits and sow them one by one counter-clockwise into the following pits, including your own store but skipping your opponent's.\n\nTwo rules make it tactical. If your last seed lands in your store, you play again. If it lands in an empty pit on your side, you capture it together with all the seeds in the opposite pit. The game ends when one side runs out of seeds, and the player with more seeds in their store wins.\n\nPlay the computer at three levels or a friend on the same device, with 3 to 6 seeds per pit.",
+  "howToPlay": "Tap one of your pits to pick up its seeds and sow them one at a time around the board. Ending in your store gives you another turn; ending in an empty pit on your side captures the seeds opposite. When either side is empty, the remaining seeds go to their owner's store and the bigger store wins.",
+  "controls": [
+    {
+      "input": "Click / Tap",
+      "action": "Sow the seeds from one of your pits"
+    },
+    {
+      "input": "1 – 6",
+      "action": "Choose a pit from left to right"
+    },
+    {
+      "input": "Esc / P",
+      "action": "Pause"
+    }
+  ],
+  "tips": [
+    "Count the seeds: a pit with exactly the right number to reach your store gives a free turn.",
+    "Play the pits closest to your store first to chain several extra turns.",
+    "Watch for empty pits on your side facing a full pit: that is a capture waiting to happen.",
+    "Avoid leaving a big pile in a pit your opponent can capture."
+  ],
+  "faq": [
+    {
+      "question": "Is Mancala free to play?",
+      "answer": "Yes. Mancala is free and runs in your browser, with no download or sign-up."
+    },
+    {
+      "question": "Can I play Mancala on a phone or tablet?",
+      "answer": "Yes. Tap a pit to sow its seeds. On a phone held upright the board turns sideways so the pits stay large."
+    },
+    {
+      "question": "Which rules does this version use?",
+      "answer": "The popular Kalah rules: six pits per side, sowing counter-clockwise, an extra turn when you end in your store and captures from empty pits."
+    }
+  ],
+  "category": "Board",
+  "tags": [
+    "mancala",
+    "kalah",
+    "board game",
+    "strategy",
+    "two player"
+  ],
+  "author": "PewPlay",
+  "playMode": "Both",
+  "orientation": "any",
+  "cover": "cover.png",
+  "screenshots": [
+    "screenshots/1.png",
+    "screenshots/2.png",
+    "screenshots/3.png"
+  ],
+  "added": "2026-11-26",
+  "draft": false
+}
